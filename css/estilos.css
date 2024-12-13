@@ -1,0 +1,81 @@
+body{
+    background-color: #efefeec6;
+}
+header{
+    
+    text-align: center;
+    border: 0 auto;
+    padding: 5px;
+    background-color: #364552;
+    color:white;
+    font-family: "Agu Display";
+    font-size: 27px;
+    
+}
+
+section{
+    width: 500px;
+    margin: 0 auto;
+}
+
+section article{
+    background-color: white;
+    margin: 18px auto;
+    border-radius: 6px;
+    padding: 0.25rem 0;
+    overflow: hidden;
+
+}
+
+section article:hover{
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+img{
+    width: 494px;
+    transition: .6s ease;
+    border-style: solid;
+    border-color: black;
+}
+
+img:hover{
+    cursor:pointer; 
+    transform:scale(1.2)
+   
+}
+
+footer{
+    background-color: black;
+    color:white;
+    font-family:"Agu display";
+
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+a:hover{
+    background-color: aliceblue;
+    box-shadow:0 0.2rem 0.5rem rgba(89, 19, 242, 0.5) ;
+}
+a{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.contactame:hover{
+    background-color: aliceblue;
+    cursor:pointer;
+    box-shadow:0 0.2rem 0.5rem rgba(7, 225, 84, 0.5) ;
+}
+.contactame{
+    padding-right: 30px;
+    padding-left: 30px;
+    color:green;
+    
+    
+}
